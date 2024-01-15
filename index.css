@@ -1,0 +1,94 @@
+/*CSS Reset andGoogle Font*/
+
+* {
+	font-family: 'Salsa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color:#1B065E ;
+}
+
+/*Main Content*/
+body {
+    background-color: #F4A4AC;
+}
+
+/*About Me*/
+#dev-name {
+    font-size: 3rem;
+}
+
+#dev-intro {
+    font-size: 1.75rem;
+}
+
+/*Projects*/
+#projects, #tools, #contact-me {
+   font-size: 2.5rem;
+   background-color: #ef7a85;
+}
+
+.card {
+   background-color: #9F85FF;
+}
+.card-title, .card-text {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Tools*/
+/*#tools {
+    font-size: 2.5rem;
+}*/
+
+#core-tools, #other-tools{
+    font-size: 1.75rem;
+}
+
+/*Contact*/
+#contact {
+    font-size: 2.5rem;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    background-color: #D4ABEF;
+    border: groove;
+}
+
+label {
+    font-size: 1rem;
+}
+
+
+/*Floating Side Bar*/
+.main-menu li a:hover{background:#FF85AB}
+
+.menu-bg{background-color: #ffcbf2;position:absolute;width:100%;height:100%;border-radius:50px;z-index:-1;top:0;left:0;}
+
+
+.floating-contact-menu {border-radius: 100px; z-index:2; padding:1px; left:0; position:fixed; display:inline-block; top:50% }
+
+.main-menu{margin:0;padding-left:0;list-style:none}
+
+.main-menu li a{display:block;padding:10px;border-radius:50px;position:relative;}
+
+
+/*Footer*/
+.footer 
+{
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
